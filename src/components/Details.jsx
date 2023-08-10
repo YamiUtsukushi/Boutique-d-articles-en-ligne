@@ -1,6 +1,5 @@
 import data from '../service/data.json';
 import { useParams } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 
 function Details() {
   // Récupération de l'identifiant "id" depuis l'URL
@@ -37,8 +36,6 @@ function Details() {
       {/* Afficher le nombre d'étoiles et le nombre d'avis. Si pas d'avis, afficher "Pas d'avis" */}
       <p>Avis: {item.avis ? '★'.repeat(item.avis.stars) + ` (${item.avis.nb} avis)` : 'Pas d\'avis'}</p>
 
-      {/* Lien pour voir les détails de l'article (même si nous sommes déjà sur la page de détails) */}
-      <Link to={`/details/${item.name}`}>Voir les détails</Link>
     </div>
   );
 }

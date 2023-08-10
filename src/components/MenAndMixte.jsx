@@ -6,7 +6,7 @@ function MenAndMixte() {
   const filteredData = data.filter(item => item.category === 'h' || item.category === 'mixte');
 
   return (
-    <div>
+    <div className="articles-container">
       {/* Parcourir chaque article filtré et l'afficher */}
       {filteredData.map((item, index) => (
         <div key={index}>

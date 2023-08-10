@@ -2,6 +2,7 @@ import data from '../service/data.json';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
+
 function Home() {
     // Initialisation avec les données par défaut issues de data.json
     const initialData = data; 
@@ -27,7 +28,9 @@ function Home() {
     };
 
     return (
-        <div>
+
+        
+        <div className="articles-container">
             {/* Boucler sur chaque article et l'afficher */}
             {items.map((item, index) => (
                 <div key={index}>

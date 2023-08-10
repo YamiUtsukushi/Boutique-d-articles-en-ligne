@@ -3,6 +3,7 @@ import Home from './components/Home';
 import MenAndMixte from './components/MenAndMixte';
 import WomenAndMixte from './components/WomenAndMixte';
 import Details from './components/Details';
+import './App.css';
 
 function App() {
   return (

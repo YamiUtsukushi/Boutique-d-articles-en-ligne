@@ -40,3 +40,113 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Reset pour les liens */
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+/* Effet de survol pour les liens dans la barre de navigation */
+nav a:hover {
+  background-color: #0072b5;
+  color: #fff;
+}
+
+/* Style pour le lien actif */
+nav a.active {
+  background-color: #0072b5;
+  color: #fff;
+}
+
+/* Espace autour de la barre de navigation */
+nav {
+  margin-bottom: 20px;
+}
+
+/* Conteneur principal */
+div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* Style général */
+body {
+  font-family: 'Arial', sans-serif; /* Utilisez la police de votre choix, Arial est juste un exemple */
+  background-color: #f4f4f4; /* Couleur d'arrière-plan */
+  color: #333; /* Couleur du texte */
+  padding: 20px; /* Espace autour de la page */
+}
+
+/* En-tête des articles */
+h2 {
+  font-size: 24px;
+  color: #111;
+  margin-bottom: 10px; /* Espace en-dessous du titre */
+}
+
+/* Images des articles */
+img {
+  max-width: 200px;
+  border-radius: 10px; /* Arrondit les coins de l'image */
+  margin-bottom: 10px; /* Espace en-dessous de l'image */
+}
+
+/* Paragraphe des articles */
+p {
+  font-size: 16px;
+  line-height: 1.5; /* Espacement des lignes */
+  margin-bottom: 10px; /* Espace en-dessous du paragraphe */
+}
+
+/* Boutons */
+button, .link {
+  display: inline-block;
+  background-color: #111; /* Couleur d'arrière-plan du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  padding: 10px 15px; /* Espace autour du texte du bouton */
+  border: none;
+  border-radius: 5px; /* Arrondit les coins du bouton */
+  text-decoration: none; /* Supprime le soulignement des liens */
+  margin-right: 10px; /* Espace à droite du bouton */
+}
+
+button:hover, .link:hover {
+  background-color: #333; /* Couleur d'arrière-plan du bouton au survol */
+  cursor: pointer; /* Change le curseur au survol */
+}
+
+
+/* Conteneur principal de vos articles */
+.articles-container {
+  display: grid; /* Utilisez le layout grid */
+  grid-template-columns: 1fr 1fr 1fr; /* Crée 3 colonnes de taille égale */
+  gap: 20px; /* Espace entre chaque article */
+  margin-bottom: 50px; /* Espace en-dessous du conteneur */
+}
+
+/* Article individuel (ou card) */
+.card {
+  background-color: #fff; /* Couleur d'arrière-plan de l'article */
+  border-radius: 10px; /* Arrondit les coins de l'article */
+  padding: 20px; /* Espace à l'intérieur de l'article */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Ombre légère pour donner un effet de profondeur */
+  transition: transform 0.2s; /* Animation douce lors du survol */
+}
+
+.card:hover {
+  transform: scale(1.03); /* Effet de zoom lors du survol de l'article */
+}
+
+
+
+
+
+
+

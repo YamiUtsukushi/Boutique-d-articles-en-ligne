@@ -1,6 +1,7 @@
 # React + Vite
 
 Boutique d'articles en ligne
+
 Ce projet est une application web de boutique en ligne réalisée avec React. Elle permet aux utilisateurs de visualiser différents articles, de les filtrer selon le genre et d'accéder à leurs détails. De plus, il est possible de supprimer des articles de la liste.
 
 Fonctionnalités principales :

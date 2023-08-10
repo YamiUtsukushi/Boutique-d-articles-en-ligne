@@ -1,10 +1,11 @@
 # React + Vite
 
-#**Boutique d'articles en ligne**
+# **Boutique d'articles en ligne**
 
 Ce projet est une application web de boutique en ligne réalisée avec React. Elle permet aux utilisateurs de visualiser différents articles, de les filtrer selon le genre et d'accéder à leurs détails. De plus, il est possible de supprimer des articles de la liste.
 
-**Fonctionnalités principales :**
+# **Fonctionnalités principales :**
+
 **Page d'accueil :** Affiche tous les articles disponibles. Chaque article présente une mise en page soignée pour une meilleure ergonomie.
 
 **Articles pour hommes et mixte :** Une page spéciale pour afficher uniquement les articles destinés aux hommes et ceux de catégorie mixte.

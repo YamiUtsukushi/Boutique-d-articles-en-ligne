@@ -4,7 +4,7 @@
 
 ## 🚀 Application déployée
 
-**🔗 [https://tiny-kheer-f60322.netlify.app](https://tiny-kheer-f60322.netlify.app)**
+**🔗 [sneakers-shop-react.netlify.app](sneakers-shop-react.netlify.app)**
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/production/deploy-status)](https://tiny-kheer-f60322.netlify.app)
 
